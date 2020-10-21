@@ -1,77 +1,148 @@
 <!doctype html>
 <html class="no-js" lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8" />
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>What Is Physics?</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css"
+        integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
     <link rel="stylesheet" href="scss/style.css">
 
 </head>
+
 <body>
 
     <!-- STICKY NAV BAR HEADER -->
-    <header class="sticky-shrinknav-header">  
+    <header class="sticky-shrinknav-header">
 
         <h1 class="sticky-shrinknav-header-title">The Physics of Tricking</h1>
-    
-          <ul class="menu align-center sticky-shrinknav-menu">
+
+        <ul class="menu align-center sticky-shrinknav-menu">
             <li><a href="./index.html">Home</a></li>
             <li><a href="./tricking.html">Tricking</a></li>
             <li><a href="./physics.html">Physics</a></li>
             <li><a href="#">About</a></li>
-          </ul>
+        </ul>
+
+    </header>
     
-    </header>  
-
-    <!-- TEXT SECTION -->
-    <div class="row main">
-        <div class="small-12 medium-12 large-12 columns">
-            <h1>Tricking is ....</h1> 
-            <h5>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
-        </div>
-    </div>
-
     <div class="grid-container">
 
-    <!-- FLIP CARDS -->
-    <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
-        <div class="flip-card-inner">
-          <div class="flip-card-inner-front">
-            <span>Book your next adventure</span>
-          </div>
-          <div class="flip-card-inner-back">
-            <h3 class="flip-card-inner-back-title">Visit Yetiland</h3>
-            <p class="flip-card-inner-back-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo doloremque accusantium, repellendus ex debitis molestias, recusandae dignissimos delectus.</p>
-            <a href="#" class="button success">Book now</a>
-          </div>
-        </div>
-      </div>
+        <!-- TEXT SECTION -->
 
-      <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
-        <div class="flip-card-inner">
-          <div class="flip-card-inner-front">
-            <span>Book your next adventure</span>
-          </div>
-          <div class="flip-card-inner-back">
-            <h3 class="flip-card-inner-back-title">Visit Yetiland</h3>
-            <p class="flip-card-inner-back-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo doloremque accusantium, repellendus ex debitis molestias, recusandae dignissimos delectus.</p>
-            <a href="#" class="button success">Book now</a>
-          </div>
+    <div class="grid-x main">
+        <div class="cell small-12 medium-8 large-8">
+            <h1>What Is Physics?</h1>
+            <h5>Physics is the science that studies matter, its motion and behavior through space and time, and the related entities of energy and force.</h5>
+            <p>
+                 The physics of tricking comes down to the interaction between two things:  <strong>moment of inertia</strong> and <strong>angular velocity</strong>.  Combined, these properties are called angular momentum and they control how high trickers go, how long they’re in the air, and how fast they spin.
+            </p>
         </div>
-      </div>
-      
+        <div class="cell small-12 medium-4 large-4">
+            <blockquote>
+            <p>
+            “What leads up to the jump is critical...It’s just as important, or more important than the jump itself -- it’s giving them their angular momentum.”</p>
+            <p class="quoteAuthor">John Di Bartolo<br>
+            Applied Physicist<br>
+            New York University, Tandon School of Engineering</p>
+            </blockquote>
+        </div>
     </div>
-      
 
+    <!-- VIDEO -->
+    <div class="grid-x">
+        <div class="cell">
 
-    <!-- JavaScript -->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js" integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/5.2.10/what-input.min.js" integrity="sha512-4snZhaL41OLVJbrysFHLFItNF9pb4zzm/X6ag4srEFALI0Hns+FVZg22G/nofqTGliAyaeWxoTjTZpmbU3enXQ==" crossorigin="anonymous"></script>
-    <script src="./js/app.js"></script>
+            <video width="1100" height="800" autoplay loop>
+                <source src="./images/cole-btwist.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+        </div>
+    </div>
+
+    <!-- FLIP CARDS -->
+    <div class="grid-x grid-margin-x small-up-1 medium-up-2 align-center">
+
+        <div class="cell">
+            <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
+            <div class="flip-card-inner">
+                <div class="flip-card-inner-front" id="cardOne">
+                <span>Angular Momentum</span>
+                </div>
+                <div class="flip-card-inner-back">
+                    <img src="./images/silouette-1.png" class="" height="75" width="75" alt="">
+                <h3 class="flip-card-inner-back-title">Angular Momentum</h3>
+                <p class="flip-card-inner-back-text"><strong>Angular momentum</strong> is the interaction between two things: <strong>moment of inertia</strong> and <strong>angular velocity</strong>.  There's a scientific equation for it that looks like this: </p>
+                <img src="images/angular-momentum-equation.jpg" height="75" width="75" />
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="cell">
+            <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
+            <div class="flip-card-inner">
+                <div class="flip-card-inner-front two" id="cardTwo">
+                <span>Moment of Inertia</span>
+                </div>
+                <div class="flip-card-inner-back">
+                <img src="./images/tricking-silouette-2.png" class="" height="75" width="75" alt="">
+                <h3 class="flip-card-inner-back-title">Moment of Inertia</h3>
+                <p class="flip-card-inner-back-text"><strong>Moment of inertia</strong> is a measure of how difficult it is to spin an object, which is influenced by its shape. </p>
+                <p class="flip-card-inner-back-text">
+                    Trickers can alter their moment of inertia by changing the shape of their bodies, throwing out legs and arms to slow down a spin at the best moment.
+                </p>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="cell">
+            <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
+            <div class="flip-card-inner">
+                <div class="flip-card-inner-front three" id="cardThree">
+                <span>Angular Velocity</span>
+                </div>
+                <div class="flip-card-inner-back">
+                    <img src="./images/tricking-silouette-3.png" class="" height="75" width="75" alt="">
+                <h3 class="flip-card-inner-back-title">Angular Velocity</h3>
+                <p class="flip-card-inner-back-text">The <strong>angular velocity</strong> is the speed and direction of motion, which determines the actual movement of a trick.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <div class="cell">
+            <div class="flip-card card" ontouchstart="this.classList.toggle('hover');">
+            <div class="flip-card-inner">
+                <div class="flip-card-inner-front four" id="cardFour">
+                <span>Rotational Motion</span>
+                </div>
+                <div class="flip-card-inner-back">
+                <img src="./images/tricking-silouette-4.png" class="" height="75" width="75" alt="">
+                <h3 class="flip-card-inner-back-title">Rotational Motion</h3>
+                <p class="flip-card-inner-back-text">Unlike figure skating and gymnastics, which use rotation head over foot or spin around the spine, tricking allows for rotation around any axis.  In fact,  the axis can change mid-trick. Shifting the axis of rotation through non-symmetric movement, like throwing up a single arm instead of both arms, gives tricking its unique style.</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+          
+
+        <!-- JavaScript -->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/js/foundation.min.js"
+            integrity="sha256-pRF3zifJRA9jXGv++b06qwtSqX1byFQOLjqa2PTEb2o=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/5.2.10/what-input.min.js"
+            integrity="sha512-4snZhaL41OLVJbrysFHLFItNF9pb4zzm/X6ag4srEFALI0Hns+FVZg22G/nofqTGliAyaeWxoTjTZpmbU3enXQ=="
+            crossorigin="anonymous"></script>
+        <script src="./js/app.js"></script>
 
 </body>
+
 </html>
