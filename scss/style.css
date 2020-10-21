@@ -378,6 +378,12 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
 
 /* ======== QUOTE ========  */
 
+.accent {
+  background: rgba(139, 107, 107, 0.1);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 .quoteAuthor {
   line-height: 1.1;
 }
