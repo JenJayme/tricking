@@ -347,13 +347,8 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
 
 /* ======== ABOUT CONTAINER ========  */
 
-#aboutCont {
-  color: rgba(255, 255, 255, .85);
-  background-image: linear-gradient(rgba(31, 106, 156, 0.9), rgba(255, 255, 255, 0.7)), url("../images/gears.jpg");
-}
-
 #aboutLine {
-  border-top: .35px solid rgb(255, 255, 255, .15);
+  border-top: .35px solid rgb(255, 255, 255, .85);
   padding-bottom: 1em;
 }
 
