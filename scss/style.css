@@ -1,0 +1,289 @@
+/* /* ======== STICKY NAV HEADER ======== */
+
+body {
+  padding-top: 230px;
+  background-color: rgb(21, 121, 186);
+}
+
+.main {
+  height: 400px;
+  padding: 10%;
+  background-color: white;
+}
+
+.menu {
+  padding-top: .7em;
+}
+
+.sticky-shrinknav-menu {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+          transform: translateX(-50%);
+  bottom: 0;
+  height: 3.75rem;
+  line-height: 3.75rem;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .8);
+  transition: all 0.5s ease;
+}
+
+.sticky-shrinknav-menu li {
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.sticky-shrinknav-menu li:hover {
+  box-shadow: 0 0 0 1px #fefefe;
+}
+
+.sticky-shrinknav-menu a {
+  color: #fefefe;
+}
+
+.sticky-shrinknav-header-title {
+  transition: all 0.3s ease;
+  position: relative;
+  -webkit-transform: translateY(-1.875rem);
+      -ms-transform: translateY(-1.875rem);
+          transform: translateY(-1.875rem);
+  margin-bottom: 0;
+  color: #fefefe;
+}
+
+.sticky-shrinknav-header {
+  width: 100%;
+  height: 300px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color:  rgb(23, 111, 172);
+  background-image: linear-gradient(rgba(21, 111, 172, 0.7), rgba(23, 111, 172, 0.7)), url("../images/td-raiz.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  transition: all 0.5s ease;
+}
+
+body.sticky-shrinknav-wrapper {
+  padding-top: 130px;
+}
+
+body.sticky-shrinknav-wrapper .sticky-shrinknav-header {
+  height: 3.75rem;
+  background-color: rgba(21, 111, 172, 0.9);
+}
+
+body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-title {
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+  transition: all 0.3s ease;
+}
+
+/* ======== GRID ======== */
+
+.marketing-site-content-section {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+
+.marketing-site-content-section .button.round {
+  border-radius: 5000px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.marketing-site-content-section .marketing-site-content-section-img {
+  -webkit-align-self: center;
+      -ms-flex-item-align: center;
+              -ms-grid-row-align: center;
+          align-self: center;
+  -webkit-flex: 1 0 100%;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+}
+
+.marketing-site-content-section .marketing-site-content-section-img img {
+  width: 100%;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-content-section .marketing-site-content-section-img {
+    -webkit-flex: 1 0 50%;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+  }
+}
+
+.marketing-site-content-section .marketing-site-content-section-block {
+  padding: 1rem;
+  -webkit-flex: 1 0 100%;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+  -webkit-align-self: stretch;
+      -ms-flex-item-align: stretch;
+          align-self: stretch;
+  /* background: #e6e6e6; */
+  background-color:  rgb(17, 66, 102);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media screen and (min-width: 40em) {
+  .marketing-site-content-section .marketing-site-content-section-block {
+    -webkit-flex: 1 0 50%;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+    padding: 2rem;
+  }
+}
+
+.marketing-site-content-section-block-header {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, .7);
+}
+
+.marketing-site-content-section-block-subheader {
+  font-size: 1rem;
+}
+
+/* ======== SLIDER ======== */
+
+.fullscreen-image-slider .orbit-image {
+  position: relative;
+  top: 50%;
+  width: 100%;
+  height: 70vh;
+}
+
+.fullscreen-image-slider .orbit-caption {
+  bottom: 50%;
+  -webkit-transform: translateY(50%);
+      -ms-transform: translateY(50%);
+          transform: translateY(50%);
+  background: none;
+  text-align: center;
+  color: #fefefe;
+  font-weight: bold;
+}
+
+
+/* ======== FLIP CARDS ======== */
+
+.flip-card {
+  -webkit-perspective: 1000;
+          perspective: 1000;
+  border: 0;
+  background: transparent;
+}
+
+.flip-card:hover .flip-card-inner,
+.flip-card.hover .flip-card-inner {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.flip-card,
+.flip-card-inner-front,
+.flip-card-inner-back {
+  width: 100%;
+  height: 20rem;
+}
+
+.flip-card-inner {
+  transition: 0.6s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+  position: relative;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+.flip-card-inner-front,
+.flip-card-inner-back {
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.flip-card-inner-front {
+  background: url(https://images.pexels.com/photos/179124/pexels-photo-179124.jpeg?w=940&h=650&auto=compress&cs=tinysrg) 0 0 no-repeat;
+  z-index: 2;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flip-card-inner-front span {
+  width: 100%;
+  text-align: center;
+  background: rgba(254, 254, 254, 0.8);
+  padding: 0.25rem 0;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.flip-card-inner-back {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+  background: #cacaca;
+  padding: 1rem;
+}
+
+.flip-card-inner-back-title {
+  font-weight: bold;
+}
+
+.flip-card-inner-back-text {
+  line-height: 1.3;
+}
+
+
