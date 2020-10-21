@@ -348,7 +348,13 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
 /* ======== ABOUT CONTAINER ========  */
 
 #aboutCont {
-  background-image: linear-gradient(rgba(31, 106, 156, 0.7), rgba(23, 111, 172, 0.7)), url("../images/gears.jpg");
+  color: rgba(255, 255, 255, .85);
+  background-image: linear-gradient(rgba(31, 106, 156, 0.9), rgba(255, 255, 255, 0.7)), url("../images/gears.jpg");
+}
+
+#aboutLine {
+  border-top: .35px solid rgb(255, 255, 255, .15);
+  padding-bottom: 1em;
 }
 
 /* ======== BEFORE ANGULAR MOMENTUM VIDEO ========  */
@@ -357,7 +363,6 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
   padding: 5% 25% 2% 25%;
   text-align: center;
 }
-
 
 /* ======== QUOTE ========  */
 
@@ -369,6 +374,37 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
 
 .quoteAuthor {
   line-height: 1.1;
+}
+
+
+/* ======== FOOTER ========  */
+
+.social-footer {
+  padding: 1rem;
+  background: rgba(146, 9, 105, 0.8);
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.social-footer .social-footer-icons li:last-of-type {
+  margin-right: 0;
+}
+
+.social-footer .social-footer-icons .fa {
+  font-size: 1.3rem;
+  color: #fefefe;
+}
+
+.social-footer .social-footer-icons .fa:hover {
+  color: #4a4a4a;
+  transition: color 0.3s ease-in;
 }
 
 
