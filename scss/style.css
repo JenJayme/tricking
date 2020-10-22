@@ -9,6 +9,7 @@ body {
   height: fit-content;
   padding-left: 10%;
   padding-right: 10%;
+  padding-top: 10%;
   background-color: rgb(255, 255, 255);
   font-size: 1.5rem;
 }
@@ -20,6 +21,8 @@ body {
   text-align: center;
   align-items: center;
   position: relative;
+  font-size: 1.5rem;
+
 }
 
 /* /* ======== STICKY NAV HEADER ======== */
