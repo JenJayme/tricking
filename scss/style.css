@@ -5,6 +5,10 @@ body {
   background-color: rgb(21, 121, 186);
 }
 
+h1, h3 {
+  color: rgb(21, 121, 186);
+}
+
 .main {
   height: fit-content;
   padding-left: 10%;
@@ -22,7 +26,10 @@ body {
   align-items: center;
   position: relative;
   font-size: 1.5rem;
+}
 
+.resources {
+  margin-top: -130px;
 }
 
 /* /* ======== STICKY NAV HEADER ======== */
@@ -349,6 +356,10 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
 
 /* ======== ABOUT CONTAINER ========  */
 
+.topCont {
+  padding-top: 20%;
+}
+
 #aboutLine {
   border-top: .35px solid rgb(255, 255, 255, .85);
   padding-bottom: 1em;
@@ -377,7 +388,7 @@ body.sticky-shrinknav-wrapper .sticky-shrinknav-header .sticky-shrinknav-header-
 
 .video {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: -100px;
   padding-bottom: 5%;
   padding-top: 5%;
   width: 100%;
