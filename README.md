@@ -1,47 +1,53 @@
-# Foundation for Sites Template
+# The Physics of Tricking
 
-**Please open all issues with this template on the main [Foundation for Sites](https://github.com/zurb/foundation-sites/issues) repo.**
+![Top Language](https://img.shields.io/github/languages/top/jenjayme/tricking)
+![Commit Activity](https://img.shields.io/github/commit-activity/m/jenjayme/tricking)
+![Last Commit](https://img.shields.io/github/last-commit/jenjayme/tricking)
+![License](https://img.shields.io/github/license/jenjayme/tricking)
+<hr>
 
-This is the basic starter project for [Foundation for Sites 6](http://foundation.zurb.com/sites). It includes a Sass compiler and a starter HTML file for you.
+This site explores the connection between "tricking", a modern athletic pursuit derived from martial arts and dance, and physics.  It was built to showcase the research my son Cole Jayme did for a school project, and his interest in tricking and science.  Cole provided all of the content and general design direction. 
 
-## Installation
+<hr>
 
-To use this template, your computer needs:
+## Contents | Quick Links
+[Getting Started](#start)     |     [Demo](#demo)     |     [Built With](#built)     |     [Authors](#author)     |     [Visuals](#visuals)     |     [Contributing & Tests](Contributing.md)     |     [Contact](#contact)
 
-- [NodeJS](https://nodejs.org/en/) (0.12 or greater)
-- [Git](https://git-scm.com/)
+<hr>
 
-This template can be installed with the Foundation CLI, or downloaded and set up manually.
+## [Getting Started](#start)
 
-### Using the CLI
+### Download the app from the Git Hub repo here:
+* [github.com/jenjayme/tricking](https://github.com/jenjayme/tricking)
 
-Install the Foundation CLI with this command:
+### <a id="demo">View a demo here:</a> 
+* [jenjayme.github.io/tricking](https://jenjayme.github.io/tricking/#demo)
+<hr>
 
-```bash
-npm install foundation-cli --global
-```
+## [Visuals](#visuals)
 
-Use this command to set up a blank Foundation for Sites project with this template:
 
-```bash
-foundation new --framework sites --template basic
-```
+![Example Gif](./example.gif)
 
-The CLI will prompt you to give your project a name. The template will be downloaded into a folder with this name.
+<hr>
 
-### Manual Setup
+## <a id="built">Built With</a>
+* HTML5 & CSS
+* [Javascript](https://www.javascript.com/)
+* [Foundation](https://foundation.zurb.com/)
+* [VS Code](https://code.visualstudio.com/)
 
-To manually set up the template, first download it with Git:
+<hr>
 
-```bash
-git clone https://github.com/zurb/foundation-sites-template projectname
-```
+## <a id="contact">Questions</a>
+For questions or to discuss collaborations on this or other projects, contact the author via LinkedIn or GitHub as follows.
 
-Then open the folder in your command line, and install the needed dependencies:
+## <a id="author">Author</a>
 
-```bash
-cd projectname
-npm install
-```
+**Jen Jayme**<br>
+[linkedin.com/jenjayme](https://www.linkedin.com/in/jenjayme)<br>
+[github.com/jenjayme](https://github.com/JenJayme)
 
-Finally, run `npm start` to run the Sass compiler. It will re-run every time you save a Sass file.
+
+## Acknowledgements
+* Credit goes to my son, Cole Jayme, for suggesting the topic, researching the connection between tricking and physics, and providing all of the content for this site.
