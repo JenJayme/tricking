@@ -24,10 +24,15 @@ This site explores the connection between "tricking", a modern athletic pursuit 
 * [jenjayme.github.io/tricking](https://jenjayme.github.io/tricking/#demo)
 <hr>
 
-## [Visuals](#visuals)
+## [Site Visual](#visuals)
 
 
-![Example Gif](./example.gif)
+![Example #1 Gif](./images/example.gif)
+
+ 
+## What Is Tricking? This!
+
+![Example #2 Gif](./images/example2.gif)
 
 <hr>
 
@@ -51,3 +56,4 @@ For questions or to discuss collaborations on this or other projects, contact th
 
 ## Acknowledgements
 * Credit goes to my son, Cole Jayme, for suggesting the topic, researching the connection between tricking and physics, and providing all of the content for this site.
+* Much respect to the tribe at [Loopkicks Tricking](https://www.loopkickstricking.com/), a group of amazing athletes who offer excellent coaching, lessons and camps for people of all abilities to learn tricking.
